@@ -1,0 +1,79 @@
+<style>
+    body{
+    background-color: rgba(128, 128, 128, 0.996); 
+    }
+    .main-container {
+    padding-top: 5%;
+    margin-left: 600px;
+    }
+
+    #admin-title{
+        margin-left: 110px;
+    }
+
+    .username-info {
+        padding-top: 15px;
+        margin-left: 100px;
+    }
+
+    .password-info {
+        padding-top: 15px;
+        margin-left: 102px;
+    }
+
+    .btn-class {
+        padding-left: 210px;
+        padding-top: 20px;
+        
+    }
+
+    .reg-class {
+        margin-left: 47%;
+        padding-top: 150px;
+    }
+    #log-btn{
+        height: 40px;
+        width: 100px;
+        margin-right: 100px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    #valet-reg-btn{
+        margin-top: 15px;
+        margin-right: 50px;
+        padding: 10px 20px;
+    }
+
+    #btn-class:hover{
+        cursor:pointer;
+    }
+  
+
+</style>
+
+
+<div class="main-container">
+    <h1 id="admin-title"> Valet Log In Page </h1>   
+
+    <form action="valetlogin.php" method="post">
+        <div class="username-info"> 
+            <label for="username"> <strong> Username: </strong> </label>
+            <input id="username" type="text" name="username" placeholder="Enter your username" required>
+        </div>
+
+        <div class="password-info">
+            <label for="password"> <strong> Password: </strong> </label>
+            <input id="password" name="password" type="password" placeholder="Enter your password" required>
+        </div>
+
+        <div class="btn-class"> 
+            <button id="log-btn" name="login" type="submit" title="Click here to log in" value="Login"> Log In </button>
+            <!-- <input name="login" type="submit" value="Login" /> -->
+        </div>
+    </form>
+
+</div>
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <head>
+        <title> Update User </title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                background-color: beige;
+            }
+            .container {
+                margin-left: 15%;
+                border: none;
+            }
+            #title{
+                margin-left: 400px;
+            }
+            .delete-field{
+                display: block;
+                margin-left: 23%;
+            }
+            .delete-usr-fld{
+                margin-left: 100px;
+            }
+            #delete-btn{
+                margin-left: 180px;
+                margin-top: 15px;
+                height: 40px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <img id="add-img" src="Images/DeleteIcon.png" style="height: 100px; width: 200px; margin-left: 43%; margin-top: 5px;">
+            <div class="container"> 
+                <h1 id="title"> Delete Account  </h1>
+            
+                <form class="delete-field" action="deleteuser.php" method="post">
+                    <div class="delete-usr-fld">
+                    <label for="delete-user"> Enter the User Account: </label>
+                    <input id="delete-user" name="delete-user" type="text">
+                    <br>
+                    <button id="delete-btn" name="delete-btn"> Delete Account </button>
+                    </div>
+                </form>
+            
+            </div>
+        
+
+
+
+    </body>
+
+</html>

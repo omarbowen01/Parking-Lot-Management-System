@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <head>
+        <title> Parking Lot Management System </title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <style>
+        body{
+            background-color: beige;
+        }
+        .valet-container{
+            margin-left: 15%;
+            margin-top: 75px;
+        }
+        .incoming-valet-license{
+            float:left;
+        }
+        .incoming-valet-checkin{
+            float:left;
+            margin-left: 70px;
+        }
+        #check-in-btn{
+            margin-left: 380px;
+            height: 30px;
+            width: 100px;
+        }
+        #checkout-title{
+            margin-top: 100px;
+        }
+        .outgoing-valet-license{
+            /* float:left; */
+            margin-top: 10px;
+            margin-right: 200px;
+            position: absolute;
+        }
+        .outgoing-checkout {
+            margin-left: 440px;
+            position: relative;
+            margin-top: 32px;
+        }
+        #checkout-form{
+            margin-bottom: 30px;
+        }
+        #check-out-btn{
+            margin-left: 380px;
+            height: 30px;
+            width: 100px;
+        }
+        
+
+
+    </style>
+
+    <body>
+        <div class="valet-container">
+            <h1 id="checkin-title"> Valet Check-in </h1>
+
+            <form id="checkin-form" action="valetcheckin.php" method="post"> 
+            <div class="incoming-valet-license"> 
+            <label for="incoming-valet"> Vehicle License Plate Number: </label>
+            <input id="incoming-valet" type="text" name="incoming-valet">
+            </div>
+            <div class="incoming-valet-checkin"> 
+            <label for="check-in-time"> Valet Check-In Time: </label>
+            <input id="check-in-time" type="datetime-local" name="check-in-time">
+            </div>
+            <br>
+            <br>
+            <button id="check-in-btn" type="submit" name="check-in-btn"> Check In </button>
+            </form>
+            
+            <br>
+            <form id="checkout-form" action="valetcheckout.php" method="post">
+            <h1 id="checkout-title"> Valet Check-out </h1>
+            <div class="outgoing-valet-license"> 
+            <label for="outgoing-valet"> Vehicle License Plate Number: </label>
+            <input id="outgoing-valet" type="text" name="outgoing-valet">
+            </div>
+            <div class="outgoing-checkout"> 
+            <label for="check-out-time"> Valet Check-Out Time: </label>
+            <input id="check-out-time" type="datetime-local" name="check-out-time">
+            </div>
+            <br>
+            <br>
+            <button id="check-out-btn" type="submit" name="check-in-btn"> Check Out </button>
+            </form>
+
+
+        </div>
+
+
+    </body>
+
+</html>

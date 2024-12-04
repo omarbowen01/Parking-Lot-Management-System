@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <head>
+        <title> Parking Lot Management System </title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+                body {
+                    background-color: beige;
+                }
+                #checkout-title{
+                    margin-top: 25px;
+                    margin-left: 42%;
+                    margin-bottom: 50px;
+                }
+                .checkout{
+                    margin-left: 30%;
+                }
+                input{
+                    padding: 3px;
+                    margin-right: 10px;
+                }
+                #checkout-btn, checkout-btn:hover{
+                    margin-left: 280px;
+                    margin-top: 50px;
+                    cursor: pointer;
+                    height: 40px;
+                    width: 150px;
+                }
+                
+        
+
+            
+        </style>
+    </head>
+
+    <body>
+            <h1 id="checkout-title"> Vehicle Checkout </h1>
+            <form action="checkoutvehicle.php" method="post"> 
+                <div class="checkout">
+                    <label for="vehicle-number"> License Plate Number: </label>
+                    <input id="vehicle-number" type="text" name="vehicle-number" required>
+                    <label for="checkout-time"> Checkout Time: </label>
+                    <input id="checkout-time" type="datetime-local" name="checkout-time" required>
+                    <br>
+                    <input id="checkout-btn" name="checkout-btn" type="submit" value="Print Parking Slip">
+                </div>
+            </form>
+        </div>
+
+    </body>
+
+</html>

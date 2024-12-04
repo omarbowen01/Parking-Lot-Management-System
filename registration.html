@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+        <title> Parking Lot Management System </title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+                body {
+                    background-color: beige;
+                }
+                .reg-container{
+                    border: none;
+                    margin-top: 5%;
+                    margin-left: 25%;
+                    
+                }
+                #reg-title{
+                    margin-left: 250px;
+                    margin-bottom: 0px;
+                }
+                form{
+                    margin-top: 5%;
+                    margin-left: 7%;
+                }
+                #register{
+                    margin-left: 40%;
+                    height: 45px;
+                    width: 100px;
+                }
+
+        </style>
+    </head>
+
+
+    <body>
+
+        <img id="add-img" src="Images/AddIcon.png" style="height: 100px; width: 200px; margin-left: 43%; margin-top: 5px;">
+        <div class="reg-container">
+            <h1 id="reg-title" > Register New Operator </h1>
+            <form action="registration.php" method="post">
+                <div class="user">
+                    <label for="username">Username:</label> 
+                    <input id="username" name="username" required="" type="text" />
+                </div>
+                </br>
+                </br>
+                <div class="pwd"> 
+                    <label for="password">Password:</label>
+                    <input id="password" name="password" required="" type="password" />
+                </div>
+                <button id="register" name="register" type="submit" value="Register"> Register </button>
+                
+            </form>
+
+        </div>
+
+    </body>
+
+</html>

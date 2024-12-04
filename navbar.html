@@ -1,0 +1,65 @@
+<style>
+    .sidenav {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+    
+        .sidenav a:hover {
+            color: #f1f1f1;
+            }
+
+        #reg-new-user-btn, #login-user-btn, #new-valet-user-btn, #valet-lgn-btn  {
+            height: 40px;
+            width: 120px;
+            margin-left: 15px;
+        }
+
+        #login-user-btn{
+            margin-top: 200px;
+        }
+
+        #reg-new-user-btn {
+            margin-top: 15px;
+        }
+
+        #new-valet-user-btn {
+            margin-top: 15px;
+        }
+
+        #valet-lgn-btn {
+            margin-top: 15px;
+        }
+        
+        
+
+
+
+</style>
+    </head>
+
+    <body>
+        <div class="sidenav">
+            <button id="login-user-btn" onclick= "window.location.href = 'index.php';"> Login </button>
+            <button id="reg-new-user-btn" onclick= "window.location.href = 'registration.php';"> Register for account </button>
+            <button id="new-valet-user-btn" onclick= "window.location.href = 'valetregistration.php';"> Register for Valet account </button>
+            <button id="valet-lgn-btn" onclick= "window.location.href = 'valetlogin.php';"> Valet Login </button>
+        </div>
+
+    </body>
+
+           

@@ -1,0 +1,78 @@
+/* body{
+    background-color: rgba(128, 128, 128, 0.986); 
+} */
+
+.container {
+    border: 2px solid black;
+    width: 800px;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 150px;
+}
+
+#title {
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+.email-input {
+margin-left: 20px;
+padding: 8px 20px;
+margin: 8px 0;
+display: inline-block;
+}
+
+
+.feedback-form {
+/* padding-top: 150px; */
+margin-left: 130px;
+}
+
+.feedback-input{
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+#button {
+    margin-top: 15px;
+    margin-left: 220px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.sidenav{
+    font-size: 20px;
+    color: white;
+}
+
+.reg-container {
+    margin-left: 25%;
+    margin-top: 10px;
+    height: 500px;
+    width: 50%;
+}
+
+.user{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.pwd{
+    margin-left: 200px;
+}
+
+#register{
+    margin-top: 30px;
+    margin-left: 320px;
+}
+
+.main-title{
+    margin-top: 40%;
+    font-size: 35px;
+    color: black;
+}
+

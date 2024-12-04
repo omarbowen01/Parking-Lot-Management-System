@@ -1,0 +1,69 @@
+<style>
+    .sidenav {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+    
+        .sidenav a:hover {
+            color: #f1f1f1;
+            }
+
+        button{
+            height: 40px;
+            width: 120px;
+            margin-left: 15px;
+        }
+
+        #new-user-btn {
+            margin-top: 140px;
+        }
+        
+        #update-user-btn{
+            margin-top: 15px;
+        }
+
+        #delete-user-btn{
+            margin-top: 15px;
+        }
+
+        #top-user-btn{
+            margin-top: 15px;
+        }
+        #logout-user-btn{
+            margin-top: 15px;
+            /* width: 300px;  */
+        }
+
+
+</style>
+
+</head>
+
+<body>
+    <div class="sidenav">
+        <button id="new-user-btn" onclick= "window.location.href = 'registration.php';"> Create New User </button>
+        <button id="update-user-btn" onclick= "window.location.href = 'updateuseroptions.php';"> Update Account Info </button>
+        <button id="delete-user-btn" onclick= "window.location.href = 'deleteuser.php';"> Delete User </button>
+        <button id="top-user-btn" onclick= "window.location.href = 'toplevelmenu.php';"> Top Level Menu Options </button>
+        <button id="logout-user-btn" onclick= "window.location.href = 'logout.php';"> Log Out</button>
+
+    </div>
+
+</body>
+
+       

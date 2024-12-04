@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <head>
+        <title> Feedback Form </title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                background-color: beige;
+            }
+            .form-inputs{
+                margin-left: 70px;
+            }
+
+            .sidenav {
+                height: 100%;
+                width: 160px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                padding-top: 20px;
+                }
+
+            .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+            }
+        
+            .sidenav a:hover {
+                color: #f1f1f1;
+                }
+
+            button{
+                height: 40px;
+                width: 120px;
+                margin-left: 15px;
+            }
+
+            #feed-home-btn{
+                margin-top: 140px;
+            }
+            #new-user-btn {
+                margin-top: 15px;
+            }
+            
+            #update-user-btn{
+                margin-top: 15px;
+            }
+
+            #delete-user-btn{
+                margin-top: 15px;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="sidenav">
+            <button id="feed-home-btn" onclick= "window.location.href = 'mainpage.php';"> Home </button>
+            <button id="new-user-btn" onclick= "window.location.href = 'registration.php';"> Create New User </button>
+            <button id="update-user-btn" onclick= "window.location.href = 'updateuseroptions.php';"> Update Account Info </button>
+            <button id="delete-user-btn" onclick= "window.location.href = 'deleteuser.php';"> Delete User </button>
+        </div>
+
+        <div class="container"> 
+            <img id="add-img" src="Images/feedbackicon.png" style="height: 100px; width: 200px; margin-left: 43%; margin-top: 5px;">
+            <h1 id="title"> Feedback Submission Form </h1>
+
+            <form class="feedback-form" action="mailto:omarbowen24@gmail.com" method="post" enctype="text/plain">
+
+                <div class="form-inputs"> 
+                    Name:<br>
+                    <input id="name" type="text" name="name"><br>
+                    E-mail:<br>
+                    <input id="email_address" type="text" name="email_address"><br>
+                    Comment:<br>
+                    <input id="feedback" type="text" name="feedback" size="50"><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                    </form>
+                </div>
+
+            </form>
+        </div>
+    
+        
+    </body>
+
+    <footer>
+        <div class="developer" style="margin-top: 140px; margin-left: 45px;">
+            <h2 id="dev-name" style="font-size: 14px; margin-left: 45%;"> Omar Bowen </h2>
+            
+            <a href="feedbackform.php" style="margin-left: 635px"> Developer Feedback </a>
+    
+        </div>
+    </footer>
+
+
+
+
+</html>

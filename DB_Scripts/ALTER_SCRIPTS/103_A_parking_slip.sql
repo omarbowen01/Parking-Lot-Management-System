@@ -1,0 +1,2 @@
+ALTER TABLE parking_slip 
+ADD IS_VALET BIT NULL;

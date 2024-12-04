@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <title> Parking Lot Management System </title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body{
+                background-color: beige;
+                color: black;
+            }
+            #title{
+                margin-left: 46%;
+            }
+            .license-input{
+                margin-left: 35%
+             }
+            #carwash-submit-btn{
+                margin-top: 20px;
+                margin-left: 47%;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+            form{
+                margin-bottom: 100px;
+            }
+            tr {
+                text-align: center;
+            }
+    
+    
+        </style>
+
+
+
+    </head>
+    
+
+    <body>
+        <h2 id="title"> Valet Car Wash </h2>
+        
+        <form class="carwash-form" action="carwash.php" method="post">
+            <div class="license-input"> 
+            <label for="carwash-license"> Car License Plate Number: </label>
+            <input id="carwash-license" type="text" name="carwash-license">
+            </div>
+            <br>
+            <button id="carwash-submit-btn" type="submit"> Schedule Car Wash </button>
+        </form>
+
+
+
+    </body>
+
+</html>
