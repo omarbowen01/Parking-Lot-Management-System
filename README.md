@@ -1,6 +1,6 @@
 <h2> About The Project </h2>
 
-The purpose of this project is to create a parking lot management system for a therotical parking lot company. The intended users are employees of the company that manage the cars in the parking lot. Users will be able to login/logout, modify account details, delete an account, checkin/checkout cars, checkin/checkout valet cars, fill out feedback forms and send emails to the developer(myself), view floor/total garage occupancy, schedule valet car washes and watch training videos on how to use the website.
+The purpose of this project is to create a parking lot management system for a theoretical parking lot company. The intended users are employees of the company that manage the cars in the parking lot. Users will be able to login/logout, modify account details, delete an account, checkin/checkout cars, checkin/checkout valet cars, fill out feedback forms and send emails to the developer(myself), view floor/total garage occupancy, schedule valet car washes and watch training videos on how to use the website.
 
 
 
