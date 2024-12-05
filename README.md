@@ -1,15 +1,16 @@
 <h2> About The Project </h2>
 
-The purpose of this project is to create a 
+The purpose of this project is to create a parking lot management system for a therotical parking lot company. The intended users are employees of the company that manage the cars in the parking lot. <br> Users will be able to login/logout, modify account details, delete an account, checkin/checkout cars, checkin/checkout valet cars, fill out feedback forms and send emails to the developer(myself), view floor/total garage occupancy, <br> schedule valet car washes and watch training videos on how to use the website.
 
 
 
 <h2> Built With </h2>
-. HTML
-. CSS
-. PHP
-. MySQL
-
+<ul>
+  <li> HTML5 </li>
+  <li> CSS </li>
+  <li> PHP </li>
+  <li> MySQL </li>
+</ul> 
 
 <h2> Getting Started </h2>
 To get the project up an running locally follow these steps.
