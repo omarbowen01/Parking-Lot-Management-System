@@ -16,7 +16,7 @@ The purpose of this project is to create a parking lot management system for a t
 To get the project up an running locally follow these steps.
 
 <h3> Installation </h3>
-1. Download XAMPP to create the apache web server environemnt with PHP and MySQL. 
+1. Download XAMPP to create the apache web server environment with PHP and MySQL. 
 https://www.apachefriends.org/ <br> 
 2. From the parent folder of the downloaded XAMPP package navigate to the htdocs folder
 File path: \xampp\htdocs <br> 
@@ -30,7 +30,7 @@ File path: \xampp\htdocs <br>
 9. First go to the admin_login database then go to SQL tab  <br> 
 10. Next, navigate to the project folder: \DB_Scripts and run all the scripts in each of the folders in order one by one: 
 FULL_SCHEMA, ALTER_SCRIPTS, INSERT_SCRIPTS then TRIGGERS <br> 
-11. Do a CTRL+F for 'mysqli_connect' with the project folder and replace the server name with your mysql server name, the default username should be "root" as aleady writting in the parameters but verify your mysql username and replace as needed. <br> 
+11. Do a CTRL+F for 'mysqli_connect' with the project folder and replace the server name with your mysql server name, the default username should be "root" as already written in the parameters but verify your mysql username and replace as needed. <br> 
 12. In the browser type in localhost/yourlocalprojectfolder/index.php to get to the landing page <br> 
 
 <h2> Contact </h2>
