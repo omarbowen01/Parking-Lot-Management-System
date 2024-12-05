@@ -1,6 +1,6 @@
 <h2> About The Project </h2>
 
-The purpose of this project is to create a parking lot management system for a therotical parking lot company. The intended users are employees of the company that manage the cars in the parking lot. <br> Users will be able to login/logout, modify account details, delete an account, checkin/checkout cars, checkin/checkout valet cars, fill out feedback forms and send emails to the developer(myself), view floor/total garage occupancy, <br> schedule valet car washes and watch training videos on how to use the website.
+The purpose of this project is to create a parking lot management system for a therotical parking lot company. The intended users are employees of the company that manage the cars in the parking lot. Users will be able to login/logout, modify account details, delete an account, checkin/checkout cars, checkin/checkout valet cars, fill out feedback forms and send emails to the developer(myself), view floor/total garage occupancy, schedule valet car washes and watch training videos on how to use the website.
 
 
 
@@ -34,5 +34,5 @@ FULL_SCHEMA, ALTER_SCRIPTS, INSERT_SCRIPTS then TRIGGERS <br>
 12. In the browser type in localhost/yourlocalprojectfolder/index.php to get to the landing page <br> 
 
 <h2> Contact </h2>
-Omar Bowen- Email: omarbowen24@gmail.com
+Omar Bowen- Email: omarbowen24@gmail.com <br>
 Project Link: https://github.com/omarbowen01/Parking-Lot-Management-System
